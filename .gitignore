@@ -1,0 +1,33 @@
+# 本地工具与依赖（非通用，不上传）
+.opencode/
+.trellis/
+AGENTS.md
+
+# 依赖与缓存
+.opencode/node_modules/
+.ruff_cache/
+__pycache__/
+*.pyc
+
+# 历史抓取对比资料（本地保留，不入库）
+对比报告_bqg107_vs_TXT.txt
+对比报告_v2.txt
+
+# 校正中间态（最终结果已含在 typo_report_final.md 与 chapters_fixed/）
+data/typo_candidates/
+data/chapter_edits/
+data/typo_approved.jsonl
+data/typo_progress.json
+data/typo_report.md
+data/snapshots/
+
+# 生成物：txt/mobi/pdf 不入库（可由脚本重建），epub 例外（归档 v1/v2）
+凡人修仙传.txt
+凡人修仙传.mobi
+凡人修仙传.pdf
+凡人修仙传v2.txt
+凡人修仙传v2.mobi
+凡人修仙传v2.pdf
+
+# macOS
+.DS_Store
